@@ -1,192 +1,153 @@
 <div align="center">
 
-<br/>
+<img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/mail-search.svg" width="120" height="120" alt="MailScope Logo" style="filter: drop-shadow(0 0 10px rgba(99, 102, 241, 0.4));" />
 
-```
- ███╗   ███╗ █████╗ ██╗██╗      ███████╗ ██████╗ ██████╗ ██████╗ ███████╗
- ████╗ ████║██╔══██╗██║██║      ██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔════╝
- ██╔████╔██║███████║██║██║      ███████╗██║     ██║   ██║██████╔╝█████╗  
- ██║╚██╔╝██║██╔══██║██║██║      ╚════██║██║     ██║   ██║██╔═══╝ ██╔══╝  
- ██║ ╚═╝ ██║██║  ██║██║███████╗ ███████║╚██████╗╚██████╔╝██║     ███████╗
- ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚══════╝ ╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚══════╝
-```
+<h1 align="center" style="font-size: 3rem; font-weight: 800; color: #4f46e5;">MailScope</h1>
 
-**Professional Email Investigation & Forensics Platform**
+<p align="center" style="font-size: 1.2rem; color: #64748b;">
+  <b>Advanced Email Investigation & Forensics Platform</b> <br />
+  <i>Engineered for SOC Analysts & DFIR Teams</i>
+</p>
 
-<br/>
+<br />
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Platform-6366f1?style=for-the-badge&logo=github)](https://mahmoudnazmy.github.io/MailScope/)
-[![Vue 3](https://img.shields.io/badge/Vue-3.x-42b883?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-[![License](https://img.shields.io/badge/License-MIT-0ea5e9?style=for-the-badge)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Launch_Platform-Visit_Now-6366f1?style=for-the-badge&logo=rocket&logoColor=white)](https://mahmoudnazmy.github.io/MailScope/)
+[![Vue 3](https://img.shields.io/badge/Framework-Vue_3.x-42b883?style=for-the-badge&logo=vuedotjs&logoColor=white)](https://vuejs.org)
+[![TypeScript](https://img.shields.io/badge/Language-TypeScript_5.x-3178c6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![License](https://img.shields.io/badge/License-MIT-0ea5e9?style=for-the-badge&logo=open-source-initiative&logoColor=white)](LICENSE)
 
-<br/>
+<br />
 
 ---
 
 </div>
 
-<br/>
+<br />
 
-## Overview
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/compass.svg" width="24" style="vertical-align: middle;" /> Platform Overview
 
-**MailScope** is a client-side, open-source email investigation platform designed to assist Security Operations Center (SOC) analysts, Digital Forensics and Incident Response (DFIR) practitioners, and cybersecurity researchers in conducting deep, structured email investigations — directly in the browser, without any backend or data transmission.
+<div align="center">
+  <table style="border-radius: 10px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <tr>
+      <td style="padding: 20px; background-color: #f8fafc; color: #334155; line-height: 1.6; border: 1px solid #e2e8f0;">
+        <b>MailScope</b> is a client-side, open-source email investigation platform designed to assist <b>Security Operations Center (SOC)</b> analysts, <b>Digital Forensics and Incident Response (DFIR)</b> practitioners, and cybersecurity researchers in conducting deep, structured email investigations — directly in the browser. 
+        <br><br>
+        <div align="center">
+          <img src="https://img.shields.io/badge/Privacy_First-Zero_Backend_&_No_Data_Transmission-10b981?style=flat-square&logo=shield" alt="Privacy First" />
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 
-Built with precision for modern threat landscapes, MailScope provides granular visibility into the technical anatomy of email messages, enabling analysts to rapidly identify phishing campaigns, Business Email Compromise (BEC), spoofing attacks, and malicious payloads.
+<br />
 
-<br/>
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/cpu.svg" width="24" style="vertical-align: middle;" /> Core Intelligence Modules
 
----
+<table align="center" width="100%" style="table-layout: fixed;">
+  <tr>
+    <th align="center" width="33%"><img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/network.svg" width="30" /> <br/> Header Analysis</th>
+    <th align="center" width="33%"><img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/file-search.svg" width="30" /> <br/> Body Analysis</th>
+    <th align="center" width="33%"><img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/shield-alert.svg" width="30" /> <br/> Full Email Forensics</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li><b>SMTP Relay Chain</b> mapping</li>
+        <li><b>SPF, DKIM, DMARC, ARC</b> verification</li>
+        <li>Header spoofing detection</li>
+        <li>IOC extraction (IPs, Domains)</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <ul>
+        <li><b>Malicious URL</b> scanning</li>
+        <li>Brand impersonation tracking</li>
+        <li>HTML payload deobfuscation</li>
+        <li>Social engineering signals</li>
+      </ul>
+    </td>
+    <td valign="top">
+      <ul>
+        <li><b>.EML / .MSG</b> processing</li>
+        <li>Unified threat scoring</li>
+        <li>High-fidelity structure</li>
+        <li>MIME tree hierarchy viewer</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-## Core Modules
+<br />
 
-<br/>
-
-### `[01]` Header Analysis
-> Deep-dive into raw internet message headers with full forensic reconstruction.
-
-- Parses and visualizes the complete **SMTP relay chain** with hop-by-hop timing analysis
-- Validates **SPF**, **DKIM**, **DMARC**, and **ARC** authentication records cryptographically
-- Detects **header spoofing**, mismatched sender paths, and forged `Reply-To` fields
-- Supports `.EML` file upload and raw header paste input
-- Extracts and pivots on **Indicators of Compromise (IOCs)** including IPs, domains, hashes, and URLs
-
-<br/>
-
-### `[02]` Body Analysis
-> Forensic inspection of email body content for malicious intent signals.
-
-- Scans for **malicious URLs** with redirect chain tracking and punycode detection
-- Identifies **brand impersonation** patterns targeting major financial and tech organizations
-- Deobfuscates and decodes **HTML payload obfuscation** techniques (Base64, hex encoding, CSS tricks)
-- Detects **social engineering** language patterns and psychological manipulation tactics
-- Flags suspicious attachment MIME types and embedded exploit indicators
-
-<br/>
-
-### `[03]` Full Email Investigation
-> Unified correlated analysis combining header and body forensics in a single report.
-
-- Processes complete `.EML` / `.MSG` files with full MIME tree reconstruction
-- Delivers a consolidated, **high-fidelity investigation report** with unified threat scoring
-- Correlates header authentication, routing anomalies, and body-level threat signals
-- Produces a severity-graded findings summary (Critical → Low) with actionable context
-
-<br/>
-
----
-
-## How to Use
-
-> **MailScope runs entirely in your browser. No account required. No data leaves your device.**
-
-**Step 1** — Navigate to the module that matches your investigation scope:
-- `Header Analysis` for raw header / `.EML` files with routing & auth focus
-- `Body Analysis` for email body content, HTML source, or plain text payloads
-- `Full Email` for complete `.EML` / `.MSG` files requiring end-to-end investigation
-
-**Step 2** — Upload a file or paste raw content directly into the input area.
-
-**Step 3** — Review the structured findings report. Each finding includes:
-- Severity classification (Critical / High / Medium / Low)
-- Technical context and explanation
-- Recommended analyst actions
-
-**Step 4** — Use the IOC extraction panel to pivot indicators to external threat intelligence platforms (VirusTotal, Shodan, AbuseIPDB, and more).
-
-<br/>
-
----
-
-## Platform Features
-
-| Feature | Description |
-|---|---|
-| **Zero Backend** | Fully client-side — no servers, no data collection |
-| **Real-time Analytics** | Live usage telemetry via Firebase Firestore |
-| **Multi-format Support** | Accepts `.EML`, `.MSG`, `.TXT`, and raw paste input |
-| **IOC Extraction** | Automated extraction of IPs, URLs, domains, email addresses, and file hashes |
-| **Threat Scoring** | Deterministic severity scoring across all finding categories |
-| **MIME Tree Viewer** | Full MIME structure visualization for multipart messages |
-| **Dark-aware UI** | Clean, professional interface optimized for analyst workflows |
-| **Open Source** | Fully auditable codebase — no hidden logic |
-
-<br/>
-
----
-
-## Technology Stack
-
-| Layer | Technology |
-|---|---|
-| UI Framework | Vue.js 3 (Composition API) |
-| Language | TypeScript 5 |
-| Styling | Tailwind CSS |
-| Build Tool | Vite 8 |
-| State Management | Pinia |
-| Cloud Telemetry | Firebase Firestore |
-| Data Visualization | Chart.js / vue-chartjs |
-| Icons | Lucide Icons |
-
-<br/>
-
----
-
-## Security & Privacy
-
-MailScope is designed with analyst privacy as a core principle:
-
-- **No email content is transmitted** — all parsing and analysis is performed locally in the browser
-- **Firebase** is used exclusively for **anonymous aggregate usage counters** (total visits, analysis counts) — no email data, IP addresses, or user identifiers are stored
-- The codebase is fully open source and auditable
-
-<br/>
-
----
-
-## About The Creator
-
-**Mahmoud-Na** — Cybersecurity Enthusiast with a focus on Security Operations (SOC), Threat Detection, Email Security, Threat Hunting, and Digital Forensics.
-
-MailScope was built as a practical, production-quality tool to improve email investigation workflows and provide accessible, professional-grade tooling for the cybersecurity community.
-
-[![GitHub](https://img.shields.io/badge/GitHub-mahmoudnazmy-181717?style=flat-square&logo=github)](https://github.com/mahmoudnazmy)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-mahmoud--n-0077b5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/mahmoud-n/)
-
-<br/>
-
----
-
-## License
-
-```
-MIT License
-
-Copyright (c) 2025 Mahmoud-Na
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-```
-
-<br/>
-
----
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/git-merge.svg" width="24" style="vertical-align: middle;" /> Investigation Workflow
 
 <div align="center">
 
-**MailScope** · Built for analysts, by an analyst.
-
-*© 2025 Mahmoud-Na. All rights reserved.*
+<img src="https://img.shields.io/badge/01-Select_Module-6366f1?style=for-the-badge&logo=layers&logoColor=white" /> &nbsp; ➔ &nbsp;
+<img src="https://img.shields.io/badge/02-Input_Data-8b5cf6?style=for-the-badge&logo=upload&logoColor=white" /> &nbsp; ➔ &nbsp;
+<img src="https://img.shields.io/badge/03-Analyze_Results-d946ef?style=for-the-badge&logo=activity&logoColor=white" /> &nbsp; ➔ &nbsp;
+<img src="https://img.shields.io/badge/04-Pivot_IOCs-ec4899?style=for-the-badge&logo=external-link&logoColor=white" />
 
 </div>
+
+<br />
+
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/layers.svg" width="24" style="vertical-align: middle;" /> Architecture & Features
+
+<div align="center">
+
+[![Client Side](https://img.shields.io/badge/Architecture-Fully_Client--Side-blue?style=flat-square&logo=server&logoColor=white)](#)
+[![Data Privacy](https://img.shields.io/badge/Data_Privacy-Local_Processing-green?style=flat-square&logo=lock&logoColor=white)](#)
+[![Formats](https://img.shields.io/badge/Supported_Formats-.EML_%7C_.MSG_%7C_.TXT-orange?style=flat-square&logo=file-text&logoColor=white)](#)
+[![IOCs](https://img.shields.io/badge/Intelligence-Automated_IOC_Extraction-red?style=flat-square&logo=cpu&logoColor=white)](#)
+
+</div>
+
+<br />
+
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/code-2.svg" width="24" style="vertical-align: middle;" /> Technology Stack
+
+<div align="center">
+  <br />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=vue,ts,tailwind,vite,firebase,html,css" alt="Technology Stack" />
+  </a>
+  <br />
+</div>
+
+<br />
+
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/shield-check.svg" width="24" style="vertical-align: middle;" /> Security & Privacy
+
+> **Strict Privacy Guarantee:** MailScope runs entirely in your local browser environment. 
+> 
+> - <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/shield-check.svg" width="16" style="vertical-align: middle;" /> **No email content is ever transmitted** or stored on external servers.
+> - <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/database.svg" width="16" style="vertical-align: middle;" /> **Firebase** is used exclusively for anonymous aggregate telemetry (e.g., total visits).
+> - <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/code-2.svg" width="16" style="vertical-align: middle;" /> **Open Source & Auditable** for complete transparency.
+
+<br />
+
+## <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/terminal.svg" width="24" style="vertical-align: middle;" /> About The Creator
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/user-circle.svg" width="50" style="margin-bottom: 10px;" />
+  <h3 style="margin: 0;">Mahmoud-Na</h3>
+  <p style="color: #64748b; margin-top: 5px;">Cybersecurity Enthusiast | SOC Operations | Threat Detection</p>
+
+  <a href="https://github.com/mahmoudnazmy">
+    <img src="https://img.shields.io/badge/GitHub-mahmoudnazmy-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/mahmoud-n/">
+    <img src="https://img.shields.io/badge/LinkedIn-Mahmoud--Na-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</div>
+
+<br />
+
+---
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/copyright.svg" width="14" style="vertical-align: middle;" /> <b>2025 Mahmoud-Na. All rights reserved.</b><br/>
+  <i>Built for analysts, by an analyst.</i>
+</p>
